@@ -18,5 +18,10 @@ public class StudentController {
 		return "Student Details are here";
 	}
 	
+	@GetMapping
+	public String getDetailsThree() {
+		return "Student Details are here also";
+	}
+	
 	
 }
