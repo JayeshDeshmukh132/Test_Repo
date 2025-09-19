@@ -19,4 +19,9 @@ public class TeacherController {
 	public String testMethodTwo() {
 		return "Hello 2";
 	}
+	
+	@GetMapping("/test/")
+	public String testMethodThree() {
+		return "Hello 3";
+	}
 }
