@@ -13,4 +13,10 @@ public class StudentController {
 		return "Student";
 	}
 	
+	@GetMapping
+	public String getDetailsTwo() {
+		return "Student Details are here";
+	}
+	
+	
 }
