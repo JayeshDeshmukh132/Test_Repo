@@ -24,4 +24,8 @@ public class TeacherController {
 	public String testMethodThree() {
 		return "Hello 3";
 	}
+	
+	public String testMethodFour() {
+		return "Hello 4";
+	}
 }
